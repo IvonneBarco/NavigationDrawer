@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_athletes"
+            android:icon="@drawable/ic_athletes_black_24dp"
+            android:title="Atletas" />
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Grupo de apoyo" />
+
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/ic_training_black_24dp"
+            android:title="Entrenamiento" />
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_sports_black_24dp"
+            android:title="Deportes" />
+
+        <item
+            android:id="@+id/nav_planes"
+            android:icon="@drawable/ic_plans_black_24dp"
+            android:title="Planes de entrenamiento" />
+    </group>
+
+    <item android:title="Mi Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_black_24dp"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>
